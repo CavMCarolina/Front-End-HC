@@ -47,24 +47,27 @@
 }
 
 .logo {
+    display: flex;
     margin-left: 12%;
-    margin-top: -2.2%;
+    margin-top: 1.6%;
     cursor: pointer;
 }
 
 .logo2 {
+    display: flex;
     margin-left: 45%;
-    margin-top: 0.2%;
+    margin-top: -5.8%;
 }
 
 .menu {
     background-color: #1E1B54;
-    margin-top: 2%;
+    margin-top: 5%;
     color: white;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 12%;
     padding-right: 10%;
+    list-style: none;
     display: grid;
     grid-template-areas: 
     "home paciente profissional ensino hospital campanha";
@@ -72,36 +75,31 @@
 
 .home {
     grid-area: home;
-    border-left: 2px;
-    border-color: #b3b3b5;
+    border-right: 1px solid #515251;
     cursor: pointer;
 }
 
 .paciente {
     grid-area: paciente;
-    border-left: 2px;
-    border-color: #b3b3b5;
+    border-right: 1px solid #515251;
     cursor: pointer;
 }
 
 .profissional {
     grid-area: profissional;
-    border-left: 2px;
-    border-color: #b3b3b5;
+    border-right: 1px solid #515251;
     cursor: pointer;
 }
 
 .ensino {
     grid-area: ensino;
-    border-left: 2px;
-    border-color: #b3b3b5;
+    border-right: 1px solid #515251;
     cursor: pointer;
 }
 
 .hospital {
     grid-area: hospital;
-    border-left: 2px;
-    border-color: #b3b3b5;
+    border-right: 1px solid #515251;
     cursor: pointer;
 }
 
@@ -126,6 +124,7 @@
     padding-left: 12%;
     padding-top: 3%;
     padding-bottom: 3%;
+    list-style: none;
 }
 
 .links {
