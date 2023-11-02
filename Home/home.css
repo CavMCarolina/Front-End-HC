@@ -67,7 +67,7 @@
     margin-top: 1%;
 }
 
-.menu {
+#menu {
     background-color: #1E1B54;
     color: white;
     margin-top: 2%;
@@ -75,51 +75,35 @@
     padding-bottom: 15px;
     padding-left: 12%;
     padding-right: 10%;
-    list-style: none;
     display: grid;
     grid-template-areas: 
     "home paciente profissional ensino hospital campanha";
+    list-style: none;
 }
 
-.home {
-    grid-area: home;
+#menu li{
     border-right: 1px solid #515251;
+    margin-right: 30px;
+    padding-right: 10px;
+    display: inline;
     cursor: pointer;
 }
 
-.paciente {
-    grid-area: paciente;
-    border-right: 1px solid #515251;
-    cursor: pointer;
+#menu li a:hover {
+    color:#2F9687;
 }
 
-.profissional {
-    grid-area: profissional;
-    border-right: 1px solid #515251;
-    cursor: pointer;
+ul {
+    list-style: none;
 }
 
-.ensino {
-    grid-area: ensino;
-    border-right: 1px solid #515251;
-    cursor: pointer;
+a {
+    text-decoration: none;
+    color: white;
 }
 
-.hospital {
-    grid-area: hospital;
-    border-right: 1px solid #515251;
-    cursor: pointer;
-}
-
-.campanha {
-    grid-area: campanha;
-    cursor: pointer;
-}
-
-.corPaginaAtual {
+body.home #menu a#home {
     color: #2F9687;
-    border-left: 5px;
-    border-color: #b3b3b5;
 }
 
 .fundoEscuro {
@@ -137,6 +121,8 @@
 
 .links {
     grid-area: links;
+    display: flex;
+    flex-direction: column;
 }
 
 .contato {
