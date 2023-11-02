@@ -1,0 +1,119 @@
+* {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+.barraTop {
+    background-color: #fcf7f7;
+    width: 100%;
+    display: inline-block;
+    height: 50px;
+}
+
+.info {
+    font-size: 11px;
+    float: left;
+    display: flex;
+    margin-left: 12%;
+    margin-top: 0.8%;
+    cursor: pointer;
+}
+
+.pesquisa {
+    float: right;
+    display: block;
+    margin-right: 13%;
+    margin-top: 0.5%;
+}
+
+.button {
+    background-color: #30AAA0;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    width: 152px;
+    height: 31px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.input {
+    background-color: #f7f7f7;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    width: 200px;
+    height: 37px;
+}
+
+.logos {
+    display: grid;
+    grid-template-areas:
+    "logo logo2";
+    grid-template-columns: auto 55%;
+}
+
+.logo {
+    cursor: pointer;
+    grid-area: logo;
+    margin-left: 25%;
+    margin-top: 3%;
+
+}
+
+.logo2 {
+    grid-area: logo2;
+    margin-right: 60%;
+    margin-top: 1%;
+}
+
+#menu {
+    background-color: #1E1B54;
+    color: white;
+    margin-top: 2%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 12%;
+    padding-right: 10%;
+    display: grid;
+    grid-template-areas: 
+    "home paciente profissional ensino hospital campanha";
+    list-style: none;
+}
+
+#menu li{
+    border-right: 1px solid #515251;
+    margin-right: 30px;
+    padding-right: 10px;
+    display: inline;
+}
+
+#menu li a:hover {
+    color:#2F9687;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body.paciente a#paciente {
+    color: #2F9687;
+}
+
+.texto {
+    background-color: #30AAA0;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+}
+
+#conteudo {
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-left: 10%;
+}
