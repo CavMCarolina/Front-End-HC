@@ -46,23 +46,31 @@
     height: 37px;
 }
 
+.logos {
+    display: grid;
+    grid-template-areas:
+    "logo logo2";
+    grid-template-columns: auto 55%;
+}
+
 .logo {
-    display: flex;
-    margin-left: 12%;
-    margin-top: 1.6%;
     cursor: pointer;
+    grid-area: logo;
+    margin-left: 25%;
+    margin-top: 3%;
+
 }
 
 .logo2 {
-    display: flex;
-    margin-left: 45%;
-    margin-top: -5.8%;
+    grid-area: logo2;
+    margin-right: 60%;
+    margin-top: 1%;
 }
 
 .menu {
     background-color: #1E1B54;
-    margin-top: 5%;
     color: white;
+    margin-top: 2%;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 12%;
