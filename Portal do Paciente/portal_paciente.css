@@ -112,21 +112,49 @@ a {
 
 /* Conteúdo */
 #conteudo {
-    margin-left: 10%;
+    margin-left: 12%;
     margin-top: 3%;
-    margin-left: 10%;
+    margin-right: 25%;
 }
 
 .table {
     margin-top: 2%;
+    display: block;
+    text-align: center;
 }
 
-th {
-    display: inline-block;
+.td1 {
     background-color: #2b7a91;
-    padding: 10px;
-    margin: 0;
+    color: white;
+    padding: 5px 100px;
+}
+
+.td2 {
+    background-color: #d6ebf2;
+    color: #666666;
+    padding: 5px;
+}
+
+.td3 {
+    background-color: #88c6d8;
+    color: #666666;
+    padding: 5px;
+}
+
+.table2 {
+    width: 100%;
     text-align: center;
+    height: 255px;
+}
+
+.direito {
+    background-color: #EBEBEB;
+    height: 2%;
+}
+
+.esquerdo {
+    background-color: #F2F2F2;
+    height: 2%;
 }
 
 /* Rodapé */
