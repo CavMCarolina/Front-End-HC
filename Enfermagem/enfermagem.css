@@ -115,17 +115,40 @@ a {
 
 /* Conteúdo */
 .conteudo {
-    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: block;
+}
+
+.image {
+    display: inline;
+    margin-top: 3.3%;
+}
+
+.textofoto {
+    display: block;
+    margin-left: 37%;
+    margin-top: -34%;
+    text-align: justify;
+}
+.depois {
+    text-align: justify;
+    margin-top: 14%;
 }
 
 /* Rodapé */
+.rodape {
+    display: block;
+    float: bottom;
+    margin-top: 2%;
+}
+
 .fundoEscuro {
     background-color: #1E1B54;
     color: #ffffff;
     display: grid;
     grid-template-areas:
     "links contato apps";
-    margin-top: -4px;
     padding-left: 12%;
     padding-top: 3%;
     padding-bottom: 3%;
@@ -152,5 +175,4 @@ a {
     color: #ffffff;
     text-align: center;
     padding-top: 21px;
-    float: bottom;
 }
