@@ -115,24 +115,73 @@ a {
 
 /* Conteúdo - Portal do Paciente*/
 #conteudo {
-    margin-left: 10%;
+    margin-left: 12%;
     margin-top: 3%;
-    margin-left: 10%;
+    margin-right: 25%;
 }
 
 .table {
     margin-top: 2%;
-}
-
-th {
-    display: inline-block;
-    background-color: #2b7a91;
-    padding: 10px;
-    margin: 0;
+    display: block;
     text-align: center;
 }
 
+.td1 {
+    background-color: #2b7a91;
+    color: white;
+    padding: 5px 100px;
+}
+
+.td2 {
+    background-color: #d6ebf2;
+    color: #666666;
+    padding: 5px;
+}
+
+.td3 {
+    background-color: #88c6d8;
+    color: #666666;
+    padding: 5px;
+}
+
+.table2 {
+    width: 100%;
+    text-align: center;
+    height: 255px;
+}
+
+.direito {
+    background-color: #EBEBEB;
+    height: 2%;
+}
+
+.esquerdo {
+    background-color: #F2F2F2;
+    height: 2%;
+}
+
 /* Conteúdo - Enfermagem */
+.conteudo {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: block;
+}
+
+.image {
+    display: inline;
+    margin-top: 3.3%;
+}
+
+.textofoto {
+    display: block;
+    margin-left: 37%;
+    margin-top: -34%;
+    text-align: justify;
+}
+.depois {
+    text-align: justify;
+    margin-top: 14%;
+}
 
 /* Rodapé */
 .rodape {
@@ -180,12 +229,4 @@ th {
     color: #ffffff;
     text-align: center;
     padding-top: 21px;
-}
-
-/* Portal do Paciente */
-.texto {
-    background-color: #30AAA0;
-    color: #ffffff;
-    text-align: center;
-    padding: 30px;
 }
