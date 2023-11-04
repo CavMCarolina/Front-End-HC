@@ -95,6 +95,14 @@
     color:#2F9687;
 }
 
+/* Faixa trilha */
+.trilha {
+    background-color: #30AAA0;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+}
+
 /* Tirar marcas de links */
 ul {
     list-style: none;
@@ -105,18 +113,26 @@ a {
     color: white;
 }
 
-/* Faixa trilha */
-.trilha {
-    background-color: #30AAA0;
-    color: #ffffff;
-    text-align: center;
-    padding: 30px;
+/* Conteúdo - Portal do Paciente*/
+#conteudo {
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-left: 10%;
 }
 
-/* Conteúdo */
-.conteudo {
+.table {
     margin-top: 2%;
 }
+
+th {
+    display: inline-block;
+    background-color: #2b7a91;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+/* Conteúdo - Enfermagem */
 
 /* Rodapé */
 .fundoEscuro {
@@ -153,4 +169,13 @@ a {
     text-align: center;
     padding-top: 21px;
     float: bottom;
+}
+
+
+/* Portal do Paciente */
+.texto {
+    background-color: #30AAA0;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
 }
