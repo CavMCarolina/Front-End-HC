@@ -83,12 +83,23 @@
     list-style: none;
 }
 
+/* Manter a cor destacada no menu de acordo com a página atual */
+#paciente a {
+    text-decoration: none;
+    color: #2F9687;
+}
+
+/* Tirar a marca dos links e deixar eles brancos*/
+a {
+    text-decoration: none;
+    color: white;
+}
+
 #menu li{
     border-right: 1px solid #515251;
     margin-right: 30px;
     padding-right: 10px;
     display: inline;
-    cursor: pointer;
 }
 
 #menu li a:hover {
@@ -101,16 +112,6 @@
     color: #ffffff;
     text-align: center;
     padding: 30px;
-}
-
-/* Tirar marcas de links */
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: white;
 }
 
 /* Conteúdo - Portal do Paciente*/
@@ -195,6 +196,11 @@ a {
     display: block;
     float: bottom;
     margin-top: -1%;
+}
+
+/* Tirar marca das listas */
+ul {
+    list-style: none;
 }
 
 .fundoEscuro {
