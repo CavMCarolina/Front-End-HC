@@ -127,6 +127,9 @@ a {
     padding-left: 12%;
     padding-top: 3%;
     padding-bottom: 3%;
+}
+
+.fundoEscuro ul {
     list-style: none;
 }
 
@@ -150,8 +153,4 @@ a {
     color: #ffffff;
     text-align: center;
     padding-top: 21px;
-}
-
-ul {
-    list-style: none;
 }
