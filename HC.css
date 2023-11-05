@@ -133,7 +133,6 @@ a {
 
 .table {
     margin-top: 2%;
-    display: block;
     text-align: center;
 }
 
@@ -172,26 +171,31 @@ a {
 }
 
 /* Conteúdo - Enfermagem */
-.conteudo {
-    margin-left: 15%;
-    margin-right: 15%;
-    display: block;
-}
-
-.image {
-    display: inline;
-    margin-top: 3.3%;
-}
-
-.textofoto {
-    display: block;
-    margin-left: 37%;
-    margin-top: -34%;
+.conteudo{
+    display: grid;
+    margin: 3% 13%;
+    grid-template-areas: 
+    "image texto"
+    "depois depois";
     text-align: justify;
 }
-.depois {
-    text-align: justify;
-    margin-top: 14%;
+
+.image{
+    grid-area: image;
+}
+
+.textofoto{
+    grid-area: texto;
+    margin-left: 3%;
+    margin-right: 10%;
+    font-size: 15px;
+}
+
+.depois{
+    grid-area: depois;
+    margin-top: 3%;
+    margin-right: 8%;
+    font-size: 15px;
 }
 
 /* Rodapé */
