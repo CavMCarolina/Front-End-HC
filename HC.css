@@ -213,9 +213,6 @@ a {
 }
 
 /* Tirar marca das listas */
-ul {
-    list-style: none;
-}
 
 .fundoEscuro {
     background-color: #1E1B54;
@@ -226,6 +223,9 @@ ul {
     padding-left: 12%;
     padding-top: 3%;
     padding-bottom: 3%;
+}
+
+.fundoEscuro ul {
     list-style: none;
 }
 
