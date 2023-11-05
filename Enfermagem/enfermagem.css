@@ -83,6 +83,11 @@
     list-style: none;
 }
 
+#menu #saude a{
+    text-decoration: none;
+    color: #2f9687;
+}
+
 #menu li{
     border-right: 1px solid #515251;
     margin-right: 30px;
@@ -175,4 +180,8 @@ a {
     color: #ffffff;
     text-align: center;
     padding-top: 21px;
+}
+
+#listaEnfermagem {
+    list-style: disc;
 }
