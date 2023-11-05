@@ -82,9 +82,8 @@
     list-style: none;
 }
 
-
 /* Manter a cor destacada no menu de acordo com a página atual */
-#paciente a {
+#menu #paciente a{
     text-decoration: none;
     color: #2F9687;
 }

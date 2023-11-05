@@ -81,6 +81,17 @@
     list-style: none;
 }
 
+/* Manter a cor destacada no menu de acordo com a página atual */
+#menu #home a{
+    text-decoration: none;
+    color: #2F9687;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 #menu li{
     border-right: 1px solid #515251;
     margin-right: 30px;
@@ -91,19 +102,6 @@
 
 #menu li a:hover {
     color:#2F9687;
-}
-
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-body.home #menu a#home {
-    color: #2F9687;
 }
 
 /* Rodapé */
@@ -152,4 +150,8 @@ body.home #menu a#home {
     color: #ffffff;
     text-align: center;
     padding-top: 21px;
+}
+
+ul {
+    list-style: none;
 }
