@@ -10,7 +10,8 @@
     background-color: #fcf7f7;
     width: 100%;
     display: inline-block;
-    height: 50px;
+    height: fit-content;
+    padding-bottom: 2px;
 }
 
 .info {
