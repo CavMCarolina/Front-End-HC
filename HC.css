@@ -73,14 +73,10 @@
     background-color: #1E1B54;
     color: white;
     margin-top: 2%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 12%;
-    padding-right: 10%;
+    padding: 15px 12%;
     display: grid;
     grid-template-areas: 
     "home paciente profissional ensino hospital campanha";
-    list-style: none;
 }
 
 /* Manter a cor destacada no menu de acordo com a página atual */
@@ -108,7 +104,6 @@
 #menu li{
     border-right: 1px solid #515251;
     margin-right: 30px;
-    padding-right: 10px;
     display: inline;
 }
 
