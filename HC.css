@@ -231,8 +231,6 @@
     margin-top: -1%;
 }
 
-/* Tirar marca das listas */
-
 .fundoEscuro {
     background-color: #1E1B54;
     color: #ffffff;
@@ -244,6 +242,7 @@
     padding-bottom: 3%;
 }
 
+/* Tirar marca das listas */
 .fundoEscuro ul {
     list-style: none;
 }
